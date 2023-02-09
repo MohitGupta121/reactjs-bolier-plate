@@ -1,0 +1,72 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.edit-user {
+  font-family: $agenda-regular;
+  .access-title {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .padding-25 {
+    padding-left: 25px;
+  }
+  .border-right {
+    border-right: 1px solid $light-black-color;
+  }
+  @media (max-width: 576px) {
+    .border-right {
+      border-right: 0;
+    }
+  }
+  .edit-user-input {
+    margin-bottom: 30px;
+    width: 250px;
+    input {
+      margin-bottom: 0;
+    }
+    &.email-input {
+      margin-bottom: 0;
+    }
+  }
+  .error-message {
+    margin-top: 2px;
+  }
+  .edit-user-table {
+    margin-top: 10px;
+    width: 95%;
+    th {
+      border-bottom: 1px solid $light-black-color;
+      font-family: $agenda-semiBold;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    .table-row {
+      font-family: $agenda-regular;
+      font-size: 15px;
+      .org-name {
+        &.strike-through {
+          text-decoration: line-through;
+        }
+      }
+      .remove-access {
+        text-align: right;
+        .remove-access-link {
+          color: $red-color;
+          cursor: pointer;
+          font-family: $agenda-lightItalic;
+          font-size: 12px;
+          &.restore-access {
+            color: $green-color;
+          }
+        }
+      }
+    }
+  }
+  .action-btn {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .remove-access-btn {
+    margin: 15px 0;
+  }
+}

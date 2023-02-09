@@ -1,0 +1,61 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.landing-page {
+  background-color: #fbfbff;
+  min-height: 100vh;
+  .row-background {
+    // background-image: url(../../../assets/images/dashboard-image.png);
+    // background-repeat: no-repeat;
+    // background-position: right;
+
+    .landingimage {
+      width: 100%;
+    }
+
+    .text-container {
+      padding: 130px 0px 100px 70px;
+
+      h1 {
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 19.5px;
+      }
+      h4 {
+        .link {
+          color: #3a5998;
+          font-family: 'Montserrat';
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+      .CSX-Primary-Blue {
+        color: #3a5998;
+        width: 65px;
+        height: 38px;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+
+  @media only screen and (max-width: 900px) {
+    .text-container {
+      padding: 25px 10px 21px 10px !important;
+      h1 {
+        font-size: 25px;
+      }
+      h4 {
+        .link {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}

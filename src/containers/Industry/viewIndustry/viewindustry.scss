@@ -1,0 +1,107 @@
+.viewindustrycontainer {
+  .form {
+    .lable {
+      font-size: 14px;
+    }
+  }
+  .viewsidebar {
+    .checkbox {
+      .submitandsavbutton {
+        Button {
+          padding-right: 35px !important;
+          padding-left: 35px !important;
+          margin-top: 0px !important;
+        }
+        .savebutton {
+          background: none;
+          color: #3a5998;
+          margin-left: 35px;
+          border-color: #3a5998;
+          padding-right: 60px !important;
+          padding-left: 60px !important;
+        }
+        .savebutton:hover {
+          background-color: #3a5998;
+          color: #fff;
+        }
+      }
+    }
+    .reviewstatus {
+      p {
+        color: #00a51a;
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+    .uploadeddocument {
+      .ud {
+        font-size: 12px;
+        font-weight: 600;
+      }
+      p {
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+    .ud-content {
+      display: flex;
+      align-items: center;
+      .text {
+        p {
+          margin-bottom: 0;
+          font-size: 12px;
+          font-weight: 600;
+        }
+        .download {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .commentssection {
+      .ud {
+        // text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .comment-content {
+        display: flex;
+        align-items: center;
+        .text {
+          p {
+            margin-bottom: 0;
+            font-size: 12px;
+            font-weight: 600;
+          }
+          .comnt {
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .h-100vh {
+      height: 100vh;
+    }
+    .position-fixed-n {
+      position: fixed;
+    }
+    .createindustryform {
+      margin-left: 16.7%;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .submitandsavbutton {
+      button {
+        width: 100%;
+        margin-left: 0 !important;
+      }
+    }
+  }
+}

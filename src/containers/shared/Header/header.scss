@@ -1,0 +1,77 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+@import '../../../assets/fonts/fonts.scss';
+
+#hamburger-menu {
+  background: $grey-color;
+  border-radius: 10px;
+  position: absolute;
+  min-height: 100px;
+  right: 50px;
+  top: 60px;
+  width: 230px;
+  z-index: 999;
+
+  .cross-icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 6px 12px;
+  }
+
+  .nav-link {
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    .nav-items {
+      list-style: none;
+      line-height: 1.1;
+      ::before {
+        color: $black;
+        content: '\2022';
+        padding-right: 10px;
+      }
+      .nav-item {
+        color: $light-black-color;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &.disable {
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #hamburger-menu {
+    top: 50px;
+    width: 165px;
+  }
+}
+
+.hamsburger-menu {
+  padding-right: 33px;
+  align-items: center;
+
+  .icon-hamsburger {
+    cursor: pointer;
+    font-size: 48px;
+  }
+}
+
+.header {
+  .title {
+    background: $black;
+    color: $white;
+    font-family: $agenda-bold;
+    font-size: 15px;
+    padding: 9px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .logo-img {
+    width: 94px;
+  }
+}

@@ -1,0 +1,58 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.add-organization {
+  .add-organization-form {
+    margin: 0 auto 30px 90px;
+    padding: 28px 0;
+    width: 57%;
+
+    .multi-form-input {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+
+    .cross-icon {
+      top: 6px;
+    }
+
+    .forms-list {
+      margin-top: 0;
+      .multi-form-input {
+        margin-bottom: 8px;
+        margin-top: 0;
+      }
+    }
+
+    .action-item {
+      margin-top: 0;
+    }
+
+    .form-label {
+      font-family: $agenda-regular;
+      font-size: 15px;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+    }
+    .w-86 {
+      margin-bottom: 34px;
+      width: 93.5%;
+
+      input {
+        margin-bottom: 0;
+        height: 48px;
+        &::placeholder {
+          font-size: 13px;
+          font-family: $agenda-regular;
+        }
+      }
+    }
+    .footer-btn {
+      margin-top: 40px;
+
+      .cancel-btn {
+        margin-left: 0;
+      }
+    }
+  }
+}

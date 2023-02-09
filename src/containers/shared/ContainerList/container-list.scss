@@ -1,0 +1,224 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.submit-container-modal {
+  .btn-close {
+    margin: 0 5px;
+  }
+  .modal-footer {
+    justify-content: center;
+  }
+}
+
+.waste-containers-list {
+  text-align: center;
+  .info-icon {
+    color: $drag-icon;
+    cursor: pointer;
+    font-size: 13px;
+    position: relative;
+    left: 5px;
+    top: -5px;
+  }
+
+  .waste-title {
+    font-size: 34px;
+  }
+  .page-title {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .select-unit {
+    display: flex;
+    justify-content: space-around;
+    font-family: $agenda-italic;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 10px;
+    width: 14%;
+    .form-check-input {
+      cursor: pointer;
+    }
+  }
+  .search-input {
+    margin: 10px auto;
+    .form-group {
+      position: relative;
+    }
+    width: 16%;
+    @media screen and (max-width: 1024px) {
+      width: 80%;
+    }
+    .input-icons {
+      font-size: 12px;
+      position: absolute;
+      top: 6px;
+    }
+    .form-control {
+      background-color: $dropdown-bg;
+      border: none;
+      border-radius: 6px;
+      font-family: $agenda-regularExtraCondensed;
+      font-size: 18px;
+      height: auto;
+      line-height: 1;
+      margin-bottom: 0;
+      padding: 2px 5px;
+      &::placeholder {
+        color: $grey-text;
+        font-size: 20px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+  .container-lists {
+    display: flex;
+    flex-wrap: wrap;
+    height: 360px;
+    overflow-y: scroll;
+    margin: 2% 7%;
+    .container-list {
+      border: 2px solid $light-grey;
+      border-radius: 20px;
+      cursor: pointer;
+      height: 170px;
+      width: 15%;
+      margin: 0 8px 12px 8px;
+      padding: 10px;
+      position: relative;
+      @media screen and (max-width: 576px) {
+        width: 44%;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 577px) {
+        width: 14%;
+      }
+      .brand-name {
+        font-family: $agenda-semiBold;
+        font-size: 11px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .name-vol {
+        font-family: $agenda-semiBold;
+        font-size: 11px;
+        position: relative;
+        line-height: 1;
+        top: 8px;
+        text-transform: uppercase;
+      }
+      .container-img {
+        height: 100px;
+        position: relative;
+        top: 7px;
+        width: 100%;
+      }
+      .hover-button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+      }
+      .container-hover-btn {
+        font-size: 11px;
+        height: auto;
+        margin: 0;
+        min-width: 0;
+        padding: 5px 10px;
+        &:hover {
+          background-color: inherit;
+          border-color: inherit;
+          color: inherit;
+        }
+      }
+      &:hover {
+        border-color: $grey-text;
+        img,
+        .name-vol,
+        .brand-name {
+          opacity: 0.1;
+        }
+      }
+    }
+    .add-container {
+      background-color: $add-category;
+      border-radius: 20px;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 170px;
+      margin: 0 8px 12px 8px;
+      padding: 10px;
+      width: 15%;
+      .icon-add-category {
+        font-size: 32px;
+      }
+      .add-text {
+        font-family: $agenda-semiBold;
+        font-size: 11px;
+        line-height: 1;
+        margin-top: 12px;
+        text-transform: uppercase;
+        width: 50%;
+      }
+    }
+  }
+  .add-container-btn {
+    font-size: 15px;
+    height: auto;
+    margin: 0 15px;
+    padding: 6px 16px;
+  }
+  &.global-admin {
+    margin-top: -27px;
+  }
+  &.entity-admin {
+    margin-top: -60px;
+    .entity-name {
+      font-family: $agenda-mediumUltraCondensed;
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .entity-container-details {
+      font-family: $agenda-italic;
+      font-size: 17px;
+      margin: 0 auto 10px auto;
+    }
+  }
+}
+.container-exit-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -20px;
+  @media screen and (max-width: 576px) {
+    margin-top: 20px;
+  }
+  &.flex-end {
+    justify-content: flex-end;
+  }
+  .container-save-exit {
+    margin-right: 40px;
+  }
+  .container-back-link {
+    margin-left: 40px;
+  }
+}
+
+.tooltip {
+  &.show {
+    opacity: 1;
+  }
+}
+
+.tooltip-inner {
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 5px;
+  color: $black;
+  font-family: $agenda-regular;
+  font-style: italic;
+  min-width: 390px;
+  opacity: 1;
+}

@@ -1,0 +1,233 @@
+@import '../../../scss/colors';
+@import url('../../../assets/fonts/fonts.scss');
+
+.categories-section {
+  margin: auto;
+  margin-top: -66px;
+  padding-left: 38px;
+  width: 86%;
+
+  .page-title {
+    line-height: 36px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  hr {
+    margin: 15px 0 8px 0;
+  }
+
+  .category-dropdown {
+    .form-label {
+      padding-left: 2px;
+    }
+    .form-select {
+      height: 31px;
+      padding: 4px 6px;
+      width: 215px;
+    }
+  }
+
+  .category-row-one {
+    margin-right: 85px;
+  }
+
+  .filter-plus-button {
+    display: flex;
+    flex-wrap: wrap;
+
+    .category-row-two {
+      width: 93%;
+    }
+
+    .clear-btn {
+      align-self: flex-end;
+      border: 1px solid $black;
+      font-size: 13px;
+      height: 32px;
+      margin: 0;
+      margin-left: 8px;
+      min-width: 0;
+      width: 90px;
+    }
+  }
+}
+
+.hr-line {
+  background-color: $black;
+  border: 1px solid $black;
+  color: $black;
+  margin: 20px 0;
+}
+
+.daterange-and-button {
+  margin: auto;
+  padding-top: 5px;
+  width: 84%;
+
+  .datepicker {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    margin-right: auto;
+    width: 89%;
+
+    .daterange {
+      font-size: 15px;
+    }
+  }
+
+  .starting-date,
+  .end-date {
+    .form-control {
+      height: 27px;
+      margin: 0;
+      padding: 7px 4px 7px 6px;
+      text-indent: 0;
+      width: 134px;
+    }
+  }
+
+  .clear-date {
+    border: 1px solid $black;
+    font-size: 11px;
+    height: 27px;
+    margin: 0;
+    padding: 4px 10px;
+  }
+
+  .track-btns {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-left: auto;
+
+    .track-trend,
+    .line-items {
+      border-radius: 50px;
+      font-family: 'Agenda-SemiBold';
+      font-size: 15px;
+      height: auto;
+      margin: 0;
+    }
+    .track-trend {
+      margin-right: 9px;
+      padding: 1px 27px;
+    }
+    .line-items {
+      margin-left: 9px;
+      padding: 1px 17px;
+    }
+  }
+}
+
+.charts-section {
+  margin: 30px auto;
+  width: 86%;
+
+  img {
+    height: 48px;
+    width: 50px;
+  }
+
+  .page-title {
+    margin-bottom: 6px;
+    text-align: center;
+  }
+
+  .waste-impact {
+    padding-top: 20px;
+    margin-right: auto;
+    width: 95%;
+
+    .total-waste {
+      display: flex;
+      font-family: 'Agenda-RegularExtraCondensed';
+
+      .waste-details {
+        line-height: normal;
+        margin-left: 10px;
+        padding-bottom: 8px;
+
+        .label {
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+        .large {
+          font-size: 15px;
+        }
+        .small {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .foot-note {
+      font: 11px 'san-serif';
+      margin-top: 25px;
+      a {
+        color: inherit;
+      }
+    }
+  }
+
+  .kind-of-waste {
+    min-width: 480px;
+    .bordered-content {
+      border-left: 1px solid $black;
+      border-right: 1px solid $black;
+      display: flex;
+      min-height: 300px;
+    }
+    .chart-table {
+      float: left;
+      margin: 30px 0 0 10px;
+      min-height: 200px;
+
+      ul {
+        margin: 0px;
+        padding: 10px;
+
+        li {
+          margin: 0px;
+          list-style: none;
+          font-family: 'Agenda-RegularExtraCondensed';
+          font-size: 20px;
+          font-weight: normal;
+          height: 25px;
+          line-height: 29px;
+
+          .first {
+            min-width: 100px;
+            display: inline-block;
+          }
+          .second {
+            min-width: 30px;
+            display: inline-block;
+            text-align: right;
+            margin-right: 5px;
+            letter-spacing: 0.5px;
+          }
+          .third {
+            min-width: 32px;
+            display: inline-block;
+            text-align: right;
+            margin-right: 10px;
+          }
+          .block-labs {
+            width: 30px;
+            display: inline-block;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+  .where-it-went {
+    text-align: center;
+    position: absolute;
+    right: 10%;
+  }
+}

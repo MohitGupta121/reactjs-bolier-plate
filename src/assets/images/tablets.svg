@@ -1,0 +1,53 @@
+<svg id="Component_149_2" data-name="Component 149 – 2" xmlns="http://www.w3.org/2000/svg" width="427" height="126" viewBox="0 0 427 126">
+  <path id="Path_394" data-name="Path 394" d="M-6131.03-6975H-6144v51" transform="translate(6223.8 7012.97)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_393" data-name="Path 393" d="M-6144-6975h12.97v51" transform="translate(6211.03 7012.97)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_395" data-name="Path 395" d="M-6144-6975h12.97v51" transform="translate(6431.03 7012.97)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_396" data-name="Path 396" d="M-6131.03-6975H-6144v51" transform="translate(6352 7012.97)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_389" data-name="Path 389" d="M-6111.1-6843.345v-19.7" transform="translate(6235 6932)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_392" data-name="Path 392" d="M-6111.1-6843.345v-19.7" transform="translate(6503.603 6932)" fill="none" stroke="#000" stroke-width="2"/>
+  <path id="Path_386" data-name="Path 386" d="M-6199.5-6862.986v19.956" transform="translate(6235 6932)" fill="none" stroke="#000" stroke-width="2"/>
+  <g id="Ellipse_348" data-name="Ellipse 348" transform="translate(90)" fill="#dddbdb" stroke="#000" stroke-width="2">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34" fill="none"/>
+  </g>
+  <g id="Ellipse_349" data-name="Ellipse 349" transform="translate(218)" fill="#dddbdb" stroke="#000" stroke-width="2">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34" fill="none"/>
+  </g>
+  <g id="Ellipse_347" data-name="Ellipse 347" fill="#dddbdb" stroke="#000" stroke-width="2">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34" fill="none"/>
+  </g>
+  <g id="Ellipse_350" data-name="Ellipse 350" transform="translate(357)" fill="#dddbdb" stroke="#000" stroke-width="2">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34" fill="none"/>
+  </g>
+  <path id="Icon_material-tablet-android5" data-name="Icon material-tablet-android5" d="M28.268,0H9.254A4.747,4.747,0,0,0,4.5,4.754V33.276a4.747,4.747,0,0,0,4.754,4.754H28.268a4.747,4.747,0,0,0,4.754-4.754V4.754A4.747,4.747,0,0,0,28.268,0ZM21.93,34.86H15.592V33.276H21.93Zm8.319-4.754H7.273V4.754H30.249Z" transform="translate(16.119 15.485)"/>
+  <path id="Icon_material-tablet-android5-2" data-name="Icon material-tablet-android5" d="M28.268,0H9.254A4.747,4.747,0,0,0,4.5,4.754V33.276a4.747,4.747,0,0,0,4.754,4.754H28.268a4.747,4.747,0,0,0,4.754-4.754V4.754A4.747,4.747,0,0,0,28.268,0ZM21.93,34.86H15.592V33.276H21.93Zm8.319-4.754H7.273V4.754H30.249Z" transform="translate(106.119 15.485)"/>
+  <path id="Icon_material-tablet-android5-3" data-name="Icon material-tablet-android5" d="M28.268,0H9.254A4.747,4.747,0,0,0,4.5,4.754V33.276a4.747,4.747,0,0,0,4.754,4.754H28.268a4.747,4.747,0,0,0,4.754-4.754V4.754A4.747,4.747,0,0,0,28.268,0ZM21.93,34.86H15.592V33.276H21.93Zm8.319-4.754H7.273V4.754H30.249Z" transform="translate(234.119 15.485)"/>
+  <path id="Icon_material-tablet-android5-4" data-name="Icon material-tablet-android5" d="M28.268,0H9.254A4.747,4.747,0,0,0,4.5,4.754V33.276a4.747,4.747,0,0,0,4.754,4.754H28.268a4.747,4.747,0,0,0,4.754-4.754V4.754A4.747,4.747,0,0,0,28.268,0ZM21.93,34.86H15.592V33.276H21.93Zm8.319-4.754H7.273V4.754H30.249Z" transform="translate(373.119 15.485)"/>
+  <g id="Group_582" data-name="Group 582" transform="translate(-699 -536)">
+    <circle id="Ellipse_357" data-name="Ellipse 357" cx="19" cy="19" r="19" transform="translate(715 624)" fill="#efefef"/>
+    <path id="Icon_material-person" data-name="Icon material-person" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0,2.5c-3.338,0-10,1.675-10,5V26H26V23.5C26,20.175,19.337,18.5,16,18.5Z" transform="translate(718 627)"/>
+  </g>
+  <g id="Group_583" data-name="Group 583" transform="translate(-654 -536)">
+    <circle id="Ellipse_357-2" data-name="Ellipse 357" cx="19" cy="19" r="19" transform="translate(715 624)" fill="#efefef"/>
+    <path id="Icon_material-person-2" data-name="Icon material-person" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0,2.5c-3.338,0-10,1.675-10,5V26H26V23.5C26,20.175,19.337,18.5,16,18.5Z" transform="translate(718 627)"/>
+  </g>
+  <g id="Group_584" data-name="Group 584" transform="translate(-609 -536)">
+    <circle id="Ellipse_357-3" data-name="Ellipse 357" cx="19" cy="19" r="19" transform="translate(715 624)" fill="#efefef"/>
+    <path id="Icon_material-person-3" data-name="Icon material-person" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0,2.5c-3.338,0-10,1.675-10,5V26H26V23.5C26,20.175,19.337,18.5,16,18.5Z" transform="translate(718 627)"/>
+  </g>
+  <g id="Group_586" data-name="Group 586" transform="translate(-434 -536)">
+    <circle id="Ellipse_357-4" data-name="Ellipse 357" cx="19" cy="19" r="19" transform="translate(715 624)" fill="#efefef"/>
+    <path id="Icon_material-person-4" data-name="Icon material-person" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0,2.5c-3.338,0-10,1.675-10,5V26H26V23.5C26,20.175,19.337,18.5,16,18.5Z" transform="translate(718 627)"/>
+  </g>
+  <g id="Group_590" data-name="Group 590" transform="translate(189 88)">
+    <circle id="Ellipse_357-5" data-name="Ellipse 357" cx="19" cy="19" r="19" fill="#efefef"/>
+    <path id="Icon_material-person-5" data-name="Icon material-person" d="M16,16a5,5,0,1,1,5-5A5,5,0,0,1,16,16Zm0,2.5c3.338,0,10,1.675,10,5V26H6V23.5C6,20.175,12.663,18.5,16,18.5Z" transform="translate(3 3)"/>
+  </g>
+  <g id="Group_589" data-name="Group 589" transform="translate(-342 -536)">
+    <circle id="Ellipse_357-6" data-name="Ellipse 357" cx="19" cy="19" r="19" transform="translate(715 624)" fill="#efefef"/>
+    <path id="Icon_material-person-6" data-name="Icon material-person" d="M16,16a5,5,0,1,0-5-5A5,5,0,0,0,16,16Zm0,2.5c-3.338,0-10,1.675-10,5V26H26V23.5C26,20.175,19.337,18.5,16,18.5Z" transform="translate(718 627)"/>
+  </g>
+</svg>

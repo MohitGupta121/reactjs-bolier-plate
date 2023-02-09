@@ -1,0 +1,208 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.general-settings {
+  margin: -60px 30% 0 30%;
+  text-align: center;
+  .error-message {
+    text-align: left;
+  }
+}
+
+.entity-name,
+.header-name {
+  font-family: $agenda-mediumUltraCondensed;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header-name {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.entity-name {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.dropdown-label {
+  text-transform: initial;
+  font-size: 13px !important;
+}
+
+.dropdown {
+  .dropdown-toggle {
+    width: 265px;
+    height: 29px;
+    border: 1px solid $light-black-color;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+}
+.dropdown {
+  .dropdown-toggle {
+    width: 265px;
+    height: 29px;
+    border: 1px solid $light-black-color;
+    border-radius: 0px;
+    margin-top: 0px;
+  }
+}
+
+.dropdown {
+  .dropdown-menu {
+    transform: translate(3px, 28px) !important;
+  }
+
+  .dropdown-toggle {
+    text-transform: capitalize !important;
+
+    .navigation-icon {
+      right: 10px;
+    }
+  }
+}
+
+.primary-dropdown {
+  .dropdown {
+    margin-right: 5px;
+  }
+}
+
+.primary-dropdown,
+.secondary-dropdown,
+.measurment-dropdown {
+  .is-invalid {
+    #SelectBox {
+      border: 2px solid $bright-red;
+    }
+  }
+}
+
+.secondary-dropdown {
+  .dropdown {
+    margin-left: 5px;
+  }
+}
+
+.dropdown-label,
+.measurment-unit > .form-label,
+.measurment-unit-type > .locationwise-measurment,
+.location > .singular,
+.plural,
+.help,
+.help-direction,
+.general-setting-help > .link-generator > .form-check > .form-check-label {
+  font-family: $agenda-italic !important;
+  text-transform: initial !important;
+  white-space: nowrap;
+}
+
+.measurment-dropdown {
+  margin: 0px 25%;
+  margin-top: 45px;
+  height: 79px;
+}
+
+.measurment-unit-type {
+  margin: 0px 25%;
+  margin-top: 20px;
+  padding-left: 20px;
+
+  .locationwise-measurment {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+
+.location {
+  .form-group {
+    .form-control {
+      height: 29px;
+      width: 123px;
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+  }
+}
+
+.input-boxes {
+  width: 100% !important;
+}
+
+.singular,
+.plural {
+  font-size: 9px;
+}
+
+.general-setting-help {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.help {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.help-direction {
+  font-size: 10px;
+  margin-bottom: 15px;
+  color: $subtitle-text;
+}
+
+.link-generator {
+  display: flex;
+  margin: 15px auto !important;
+  height: 35px;
+
+  .form-group,
+  .hidden-input-field,
+  .form-control,
+  .form-check {
+    display: inline-block;
+  }
+
+  .form-control {
+    width: 200px;
+    height: 29px;
+    margin: 0;
+    font-size: 12px;
+    font-family: $agenda-italic;
+  }
+
+  .form-group {
+    height: 29px;
+  }
+
+  text-align: left;
+
+  .form-check-label {
+    font-size: 14px;
+  }
+}
+
+.email-input {
+  .form-group {
+    margin-left: 20px;
+  }
+}
+
+.link-input {
+  .form-group {
+    margin-left: 20px;
+  }
+}
+
+.btn {
+  margin-top: 10px;
+
+  .next-btn {
+    border: 2px solid $black;
+  }
+}
+
+.dropdown-menu {
+  min-width: 99% !important;
+}

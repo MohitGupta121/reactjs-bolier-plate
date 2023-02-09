@@ -1,0 +1,132 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+.single-select {
+  .input-wrap {
+    margin-left: 10px;
+  }
+  .form-group {
+    width: 100%;
+    .form-control {
+      border: none;
+      color: $black;
+      font-family: $agenda-bold;
+      font-size: 18px;
+      line-height: 1;
+      height: 30px;
+      margin: 0;
+      padding: 0 0 0 7px;
+      &::placeholder {
+        color: $drag-icon;
+        font-family: $agenda-regularExtraCondensed;
+        font-size: 22px;
+        padding-left: 3px;
+      }
+      &:disabled,
+      &[readonly] {
+        background-color: inherit;
+        outline: none;
+        box-shadow: none;
+        pointer-events: none;
+      }
+    }
+    .error-message {
+      margin-top: 0;
+      padding-left: 10px;
+    }
+    &.add-category {
+      position: relative;
+      .form-control {
+        &::placeholder {
+          color: $add-category;
+          font-family: $agenda-regularExtraCondensed;
+          font-size: 22px;
+          line-height: 1;
+          padding-left: 7px;
+          cursor: pointer;
+        }
+      }
+      .icon-add-category {
+        color: $add-category;
+        font-size: 18px;
+        margin-right: 4px;
+        position: absolute;
+        top: 4px;
+        left: 6px;
+        z-index: 3;
+      }
+    }
+  }
+  .icon-add-category {
+    font-size: 18px;
+    margin-right: 4px;
+  }
+
+  .options-list {
+    cursor: pointer;
+    &.small-text {
+      color: $add-category;
+      font-size: 17px;
+      font-family: $agenda-mediumExtraCondensed;
+      width: 55%;
+      margin-bottom: 10px;
+      &:hover {
+        background-color: $dropdown-bg;
+      }
+    }
+    &:hover {
+      background-color: $circled-icon;
+    }
+  }
+
+  .custom-input {
+    border: 0;
+    border-bottom: 1px solid $dropdown-border;
+  }
+
+  .custom-input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .list-group-item {
+    cursor: pointer;
+  }
+  .dropdown-list {
+    background-color: $dropdown-bg;
+    box-shadow: 0 3px 6px $dropdown-list-box;
+    font-family: $agenda-regularExtraCondensed;
+    font-size: 23px;
+    display: none;
+    list-style: none;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    li {
+      padding-left: 14px;
+    }
+  }
+  &.p-10 {
+    .form-control {
+      padding-left: 25px;
+    }
+    .error-message {
+      padding-left: 30px;
+    }
+  }
+}
+.apply-filters {
+  font-size: 12px;
+  text-align: right;
+  .filter {
+    color: $charcoal;
+    cursor: pointer;
+    padding-right: 5px;
+    text-decoration: none;
+  }
+}

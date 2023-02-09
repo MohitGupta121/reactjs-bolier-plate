@@ -1,0 +1,92 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fbfbff;
+}
+.width {
+  width: 100%;
+}
+.height100vh {
+  height: 100vh;
+}
+.modal-content {
+  text-align: center;
+  padding: 20px 40px !important;
+}
+.modal-footer {
+  text-align: center;
+  display: block;
+  button {
+    padding: 8px 25px;
+  }
+}
+
+.is-invalid {
+  border: 1px solid $bright-red;
+  &:focus {
+    box-shadow: none;
+  }
+}
+.error-message {
+  color: $bright-red;
+  font-family: 'Agenda-Regular';
+  font-size: 12px;
+  padding-left: 5px;
+  position: absolute;
+  &.ml-10 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+}
+
+.form-select {
+  color: #59626a;
+}
+
+.form h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 58px;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-control {
+  height: 45px;
+  border: 1px solid #7c7c7c;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 18px;
+  padding-left: 15px;
+  background-color: #fbfbff;
+}
+.linkTC {
+  color: gray;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logintxt {
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+.linkLogin {
+  color: #3a5998;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .curve-bg {
+    background-color: #3a599863 !important;
+  }
+}

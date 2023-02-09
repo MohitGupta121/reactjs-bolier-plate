@@ -1,0 +1,18 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+.modal {
+  .modal-650w {
+    max-width: 650px;
+  }
+  .modal-content {
+    border: 3px solid $black;
+    border-radius: 20px;
+    //font-family: $agenda-mediumUltraCondensed;
+    padding: 40px;
+    .modal-value {
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+  }
+}

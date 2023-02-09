@@ -1,0 +1,33 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.invite-users {
+  margin-top: -60px;
+  .page-title {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .entity-name {
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .description {
+    font-family: $agenda-italic;
+    font-size: 18px;
+    line-height: 1.35;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 68%;
+  }
+  .invite-input {
+    margin: 40px 30%;
+    min-height: 300px;
+  }
+  .action-btns {
+    text-align: center;
+  }
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fbfbff;
+}
+.width {
+  width: 100%;
+}
+.height100vh {
+  height: 100vh;
+}
+
+.tq-message {
+  margin-top: 10%;
+  .searchicon {
+    font-size: 6.5rem;
+    display: inline-table;
+    width: 170px;
+    height: 170px;
+    background-color: #3a5998;
+    border-radius: 100%;
+    color: #fff;
+  }
+}
+
+.form h1 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 58px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Css Strat For Mobile */
+@media only screen and (max-width: 768px) {
+  .curve-bg {
+    background-color: #3a599863;
+  }
+}
+/* Css End For Mobile */
+
+/* Css Strat For Desktop */
+@media only screen and (min-width: 768px) {
+  .tq-message p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/* Css End For Desktop */

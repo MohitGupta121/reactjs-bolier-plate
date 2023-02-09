@@ -1,0 +1,32 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+.custom-btn {
+  border: 2px solid;
+  border-radius: 0;
+  font-family: $agenda-bold;
+  font-size: 14px;
+  height: 36px;
+  margin: 15px;
+  min-width: 110px;
+  text-transform: uppercase;
+  &:focus {
+    box-shadow: none;
+  }
+  &.red-btn {
+    color: $red-color;
+    &:hover {
+      background-color: $red-color;
+      border: 0;
+      color: $white;
+    }
+  }
+  &.green-btn {
+    color: $green-color;
+    &:hover {
+      background-color: $green-color;
+      border: 0;
+      color: $white;
+    }
+  }
+}

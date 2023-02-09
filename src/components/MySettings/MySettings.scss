@@ -1,0 +1,58 @@
+.mySettings {
+  margin: 5px;
+  padding: 0px;
+  .profine-navbar {
+    background-color: #e3e3e3;
+    height: 55vh;
+    border-radius: 10px;
+  }
+  nav {
+    .container {
+      padding-right: 12px;
+      padding-left: 12px;
+    }
+    .title {
+      color: #1f2421;
+      font-weight: 600;
+      font-size: 18px;
+      border-bottom: solid 1px #7c7c7c;
+      padding-bottom: 5px;
+      margin-top: 15px;
+    }
+    .nav-link {
+      color: #1f2421 !important;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .h-100vh {
+      height: 100vh;
+    }
+    .navbar-brand {
+      border-bottom: solid 2px #fff;
+      margin-bottom: 20px;
+    }
+    .sidebarfooter {
+      position: fixed;
+      bottom: 15px;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .sidebarfooter {
+      .nav-link {
+        padding: 10px;
+      }
+    }
+    .profine-navbar {
+      height: auto;
+    }
+    nav {
+      .nav-link {
+        font-size: 12px;
+        padding-right: 5px;
+        padding-left: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../../scss/variable';
+
+.remove-user {
+  text-align: center;
+  .remove-user-description {
+    font-family: $agenda-lightItalic;
+    font-size: 15px;
+    margin: 10px auto;
+    width: 80%;
+  }
+  .user-details {
+    display: flex;
+    font-family: $agenda-regular;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 70%;
+    .user-name {
+      margin-right: 10px;
+    }
+    .user-email {
+      margin-left: 10px;
+    }
+  }
+  .action-btn {
+    .align-btn {
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      width: 47.5%;
+      .modal-btn {
+        margin: 15px 0;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .modal-btn,
+    .red-btn {
+      margin: 15px 5px;
+    }
+
+    .action-btn {
+      .align-btn {
+        width: 86%;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import '../../../scss/colors';
+
+.organization-admin-dashboard {
+  text-align: center;
+  .border-left {
+    border-left: 1px solid $border-color;
+  }
+  .dashboard-details {
+    min-height: 70px;
+    @media screen and (max-width: 576px) {
+      width: 90%;
+    }
+  }
+  .margin-auto {
+    margin: 0 auto;
+  }
+  .dashboard-options {
+    margin: auto;
+    width: 80%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    .padding-20 {
+      padding: 0 20px;
+    }
+  }
+  .small-btn {
+    &.dashed-button {
+      height: 115px;
+      margin-bottom: 30px;
+    }
+  }
+}

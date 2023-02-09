@@ -1,0 +1,124 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.readonly {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.user-row {
+  font-family: $agenda-regular;
+  font-size: 13px;
+
+  &.border-bottom {
+    border-bottom: 1px solid $light-black-color !important;
+    width: 93%;
+  }
+}
+
+.first-name,
+.email {
+  padding: 6px 0 6px 25px;
+}
+
+.email {
+  padding-left: 5px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.action-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 2px 0 0;
+  pointer-events: none;
+
+  .icons {
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 7px;
+  }
+
+  .icon-circle-tick {
+    margin-right: 3px;
+  }
+
+  .accepted {
+    font-size: 8px;
+    font-family: $agenda-semiBold;
+    margin-right: -35px;
+    text-transform: uppercase;
+  }
+}
+
+.action-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 5px;
+  margin-top: 8px;
+  .send-btn {
+    height: 26px;
+    margin: 0 30px;
+    min-width: 0;
+    padding: 0 12px;
+    &.hidden {
+      display: none;
+    }
+  }
+}
+
+.invite-forms {
+  margin-top: 5px;
+  padding: 0;
+  .multi-form-input {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0 7px 0 0;
+    vertical-align: top;
+    width: 27%;
+
+    &.email-input {
+      width: 94%;
+    }
+    input {
+      font-size: 15px;
+      height: 40px;
+      margin-bottom: 0;
+      &::placeholder {
+        font-size: 13px;
+        font-family: $agenda-regular;
+      }
+    }
+    .error-message {
+      font-size: 12px;
+    }
+  }
+  .cross-icon {
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    top: 16px;
+    vertical-align: middle;
+  }
+}
+.invite-admin {
+  color: $grey-text;
+  cursor: pointer;
+  font-family: $agenda-mediumExtraCondensed;
+  font-size: 18px;
+  padding: 0;
+}
+
+.response-error {
+  color: $bright-red;
+  font-family: $agenda-regular;
+  font-size: 13px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+}

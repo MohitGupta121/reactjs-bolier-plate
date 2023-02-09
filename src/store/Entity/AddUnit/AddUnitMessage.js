@@ -1,0 +1,9 @@
+export const getUnitByIdFailed = 'Failed to get unit data';
+export const updateUnitSuccess = 'Unit updated successfully';
+export const updateUnitFailed = 'Unit update failed';
+export const addUnitSuccess = 'Unit added successfully';
+export const addUnitFailed = 'Unit creation failed';
+export const addUnitTagSuccess = 'Tags have been assigned successfully';
+export const addUnitTagFailure = 'Failed to assign unit tag';
+export const inviteUserSuccess = 'Invitation sent successfully';
+export const inviteUserFailure = 'Failed to Invite User';

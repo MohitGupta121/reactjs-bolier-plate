@@ -1,0 +1,131 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.update-unit {
+  margin: -60px 30% 0 28%;
+  text-align: center;
+
+  .entity-name {
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 27px;
+    text-transform: uppercase;
+  }
+
+  .unitDetails {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .input-fields {
+      width: 373px;
+      height: 50px;
+
+      .unitForm {
+        .form-control {
+          border: none;
+          border-bottom: 1px solid $border-color;
+          font-size: 25px;
+        }
+      }
+
+      .inputField {
+        .form-control {
+          margin-bottom: 0px;
+          padding: 0px 0px 0px 5px;
+          font-size: 25px;
+          text-transform: capitalize;
+          font-family: $agenda-regularExtraCondensed;
+        }
+      }
+    }
+
+    .inputField {
+      .form-control::placeholder {
+        font-family: $agenda-mediumExtraCondensed;
+        font-size: 21px;
+      }
+    }
+
+    .search-bar-dropdown {
+      display: inline-block;
+      cursor: default;
+
+      .form-group {
+        width: 350px;
+
+        .form-control {
+          height: 45px;
+          border-bottom: 1px solid $border-color;
+          font-size: 25px;
+          font-family: $agenda-regularExtraCondensed;
+          text-transform: capitalize;
+          padding-top: 0px;
+        }
+
+        .form-control::placeholder {
+          font-family: $agenda-mediumExtraCondensed;
+          text-transform: capitalize;
+          font-size: 21px;
+        }
+
+        .list-group-item {
+          border: 0px;
+        }
+      }
+    }
+
+    .error-message {
+      text-align: left;
+      margin: 0px;
+    }
+  }
+
+  .entity-name,
+  .add-unit-header {
+    font-family: $agenda-mediumUltraCondensed;
+  }
+
+  .add-unit-header {
+    font-size: 34px;
+    margin-top: 24px;
+  }
+
+  .add-unit-page-title {
+    font-family: $agenda-italic;
+    font-size: 17px;
+    width: 604px;
+    padding-left: 35px;
+    display: flex;
+  }
+
+  .btns {
+    margin-top: 350px;
+  }
+
+  .add-btn {
+    position: absolute;
+    right: 150px;
+    z-index: 2;
+    top: -4px;
+    min-width: 50px;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 3px;
+  }
+
+  .icon-remove-user {
+    bottom: 17px;
+    position: absolute;
+    right: 118px;
+  }
+
+  .exit-setup {
+    margin-right: 5px;
+  }
+
+  .next {
+    margin-left: 5px;
+  }
+}

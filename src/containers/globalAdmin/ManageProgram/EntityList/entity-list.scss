@@ -1,0 +1,159 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.entity-list {
+  .manage-org-data {
+    border: 1px solid $light-black-color;
+    border-left: none;
+    margin: 0;
+    .manage-organization-label {
+      font-size: 15px;
+    }
+
+    .entity-name {
+      font-family: $agenda-mediumUltraCondensed;
+      font-size: 39px;
+    }
+    .ext-txt {
+      color: $grey-text;
+      font-family: $agenda-bold;
+      font-size: 13px;
+      text-transform: uppercase;
+      margin-top: -15px;
+    }
+    .entity-data:nth-of-type(odd) {
+      background: $light-grey;
+    }
+    input {
+      font-size: 15px;
+      &::placeholder {
+        font-size: 13px;
+        font-family: $agenda-regular;
+      }
+    }
+    .entity-data {
+      margin: 0;
+      min-height: 120px;
+      padding: 20px 15px;
+      &.pl-10 {
+        padding-left: 27px;
+      }
+      .readonly {
+        .first-name {
+          padding-left: 2px;
+        }
+      }
+      .analytics {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        .analytics-icon {
+          font-size: 37px;
+          font-weight: 600;
+          position: relative;
+        }
+      }
+      .action-icon {
+        .icons {
+          padding: 0 5px;
+        }
+      }
+      .entity-admins-btn {
+        margin: 5px 0 0 0;
+        &.btn-1 {
+          margin-top: 36px;
+        }
+      }
+    }
+    .header {
+      border-bottom: 1px solid $light-black-color;
+      font-family: $agenda-mediumUltraCondensed;
+      font-size: 22px;
+      padding: 5px 15px;
+      text-transform: uppercase;
+
+      &.entity-name-header {
+        padding-left: 27px;
+      }
+
+      &.entity-email-header {
+        padding-left: 8px;
+      }
+
+      &.entity-analytics-header {
+        padding-left: 7px;
+      }
+    }
+
+    form {
+      padding: 0;
+
+      .entity-data {
+        padding-bottom: 40px;
+      }
+
+      .add-entity-form {
+        .entity-name {
+          display: flex;
+          flex-direction: column;
+          font-family: $agenda-regular;
+          #entity-name {
+            height: 40px;
+            margin-top: 6px;
+          }
+        }
+      }
+
+      .invite-forms {
+        .multi-form-input {
+          display: inline-block;
+          margin-top: 8px;
+          padding: 0 7px 0 0;
+          vertical-align: top;
+          width: 27%;
+          &.email-input {
+            width: 94%;
+          }
+          input {
+            font-size: 13px;
+            height: 40px;
+            margin-bottom: 0;
+          }
+        }
+        .cross-icon {
+          cursor: pointer;
+          position: relative;
+          top: 14px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .add-new-entity {
+    display: flex;
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 25px;
+    height: 80px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    .add-entity-btn {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .icon-plus {
+        font-size: 35px;
+        padding-right: 5px;
+        vertical-align: middle;
+      }
+      .add-text {
+        font-size: 25px;
+      }
+    }
+  }
+}
+.action-link {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}

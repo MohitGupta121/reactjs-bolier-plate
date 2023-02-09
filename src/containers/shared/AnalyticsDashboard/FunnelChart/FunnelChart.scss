@@ -1,0 +1,51 @@
+@import '../../../../scss/colors';
+
+@mixin funnel-chart($color, $topBorder, $leftBorder, $rightBorder, $width, $marginLeft) {
+  width: $width;
+  border-top: solid $topBorder $color;
+  border-left: solid $leftBorder transparent;
+  border-right: solid $rightBorder transparent;
+  margin-left: $marginLeft;
+}
+
+.funnel-chart {
+  color: $white;
+  display: block;
+  margin: 2px 5px;
+  height: 30px;
+  .chart-content {
+    text-align: center;
+    font-family: 'Agenda-Semibold';
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+  }
+}
+
+.funnel-chart-1 {
+  @include funnel-chart(#1c4476, 30px, 27px, 27px, 366px, 7px);
+}
+.funnel-chart-2 {
+  @include funnel-chart(#2a7360, 30px, 26px, 26px, 310px, 35px);
+}
+.funnel-chart-3 {
+  @include funnel-chart(#dbaf56, 30px, 25px, 25px, 256px, 61px);
+}
+.funnel-chart-4 {
+  @include funnel-chart(#ee8c2e, 30px, 24px, 24px, 203px, 87px);
+}
+.funnel-chart-5 {
+  @include funnel-chart(#a05239, 90px, 76px, 76px, 60px, 113px);
+  .chart-content {
+    top: -80px;
+    left: -44px;
+    line-height: 12px;
+    .or {
+      padding-left: 28px;
+    }
+    .landfill {
+      padding-left: 14px;
+    }
+  }
+}

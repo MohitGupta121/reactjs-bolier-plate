@@ -1,0 +1,161 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.description {
+  font-family: $agenda-italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+.container-name-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 79%;
+  margin-top: 20px;
+
+  .container-img {
+    position: relative;
+    width: 200px;
+    height: 210px;
+    left: 22px;
+    display: inline-block;
+
+    .image {
+      position: absolute;
+      top: 0px;
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+    }
+  }
+}
+
+.btns {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.rename-container {
+  font-size: 10px;
+  font-family: $agenda-regular;
+  text-align: left;
+}
+
+.container-name {
+  display: inline-block;
+  width: 210px;
+  margin-left: 20px;
+  vertical-align: top;
+
+  .form-group {
+    .form-control {
+      width: 206px;
+      height: 26px;
+      background-color: $light-grey;
+      border: none;
+      color: $black;
+      font-family: $agenda-semiBold;
+      font-size: 13px;
+    }
+
+    .form-label {
+      font-size: 10px;
+      font-family: $agenda-regular;
+    }
+  }
+}
+
+.container-details-headers {
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+
+  .default-select-header,
+  .brand-header,
+  .volume-header {
+    font-size: 10px;
+    font-family: $agenda-regular;
+    margin-bottom: 5px;
+  }
+
+  .container-brand-name-header,
+  .container-brand-volumne-header {
+    display: inline-block;
+    margin: 0px 2px;
+  }
+
+  .container-checkbox-header,
+  .container-brand-name-header,
+  .container-brand-volumne-header {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.container-details {
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 19px;
+
+  .container-brand-name,
+  .container-brand-volumne,
+  .form-check,
+  .container-brand-volumne-name {
+    display: inline-block;
+    margin: 0px 2px;
+  }
+
+  .container-brand-name,
+  .container-checkbox {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .brand-volume,
+  .brand-volume-name,
+  .brand-name {
+    background-color: $light-grey;
+    color: $subtitle-text;
+    font-size: 13px;
+    font-family: $agenda-semiBold;
+  }
+
+  .brand-name {
+    margin-right: 5px;
+    height: 26px;
+  }
+
+  .brand-name {
+    width: 205px;
+    height: 26px;
+    padding: 2px 0px 2px 8px;
+  }
+
+  .brand-volume-name {
+    width: 40px;
+  }
+
+  .brand-volume,
+  .brand-volume-name {
+    width: 38px;
+    height: 26px;
+    padding: 3px 2px 2px 2px;
+  }
+
+  .container-checkbox {
+    .form-check {
+      .form-check-input {
+        border-radius: 0px;
+      }
+
+      .form-check-input:focus {
+        box-shadow: none;
+        outline: none;
+      }
+
+      .form-check-input:checked[type='checkbox'] {
+        background-color: $black;
+      }
+    }
+  }
+}

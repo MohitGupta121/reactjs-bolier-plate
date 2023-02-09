@@ -1,0 +1,15 @@
+@import '../../../../scss/variable';
+
+.delete-category-dialog {
+  text-align: center;
+  .description {
+    font-family: $agenda-italic;
+    font-size: 18px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}

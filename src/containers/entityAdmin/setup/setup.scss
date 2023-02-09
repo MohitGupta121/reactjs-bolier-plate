@@ -1,0 +1,243 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.entity-setup {
+  margin-top: -20px;
+  .entity-content {
+    border-right: 1px solid $border-grey;
+    padding: 0;
+
+    .entity-description {
+      margin: auto;
+      padding-left: 14px;
+      width: 65%;
+      .home-image {
+        width: 200px;
+      }
+
+      .entity-icons {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 60px auto 25px auto;
+        &.margin-40 {
+          margin: 40px auto 25px auto;
+        }
+        &.tablet-icons {
+          margin-bottom: 40px;
+        }
+        .entity-icon {
+          font-size: 98px;
+          &.icon-tags {
+            font-size: 70px;
+          }
+          &.icon-kitchen {
+            font-size: 125px;
+          }
+          &.position-top {
+            top: -14px;
+            left: 16px;
+            position: relative;
+          }
+        }
+        .middle {
+          margin: 0 13px 30px 13px;
+        }
+      }
+
+      .title {
+        font-family: $agenda-mediumUltraCondensed;
+        font-size: 34px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .details {
+        font-family: $agenda-regular;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 1.35;
+        margin-bottom: 30px;
+        text-align: center;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .entity-setup-lists {
+          .entity-setup-item {
+            list-style: none;
+          }
+        }
+
+        .bold-text {
+          font-family: $agenda-semiBoldItalic;
+        }
+      }
+    }
+  }
+  &.tablets {
+    margin-top: -10px;
+    .entity-description {
+      width: 73%;
+    }
+  }
+  &.profiles {
+    margin-top: -10px;
+    .entity-description {
+      width: 85%;
+      .entity-icons {
+        margin-top: 80px;
+        margin-bottom: 38px;
+      }
+      .details {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .flow-image {
+    text-align: center;
+    margin-top: 200px;
+    padding: 0;
+
+    .flow-chart {
+      margin-bottom: -60px;
+    }
+
+    &.margin-0 {
+      margin: 0;
+    }
+    .image {
+      width: 450px;
+      vertical-align: top;
+    }
+    .entity-names {
+      display: inline-block;
+      margin-top: 26px;
+      margin-left: 10px;
+      &.tag-names {
+        margin-top: 0;
+      }
+      &.profile-names {
+        margin-top: 24px;
+      }
+      &.tablet-names {
+        margin-top: 18px;
+      }
+      &.unit-names {
+        margin-top: 25px;
+      }
+      &.masterdb-names {
+        margin-top: 174px;
+      }
+      &.kitchen-names {
+        margin-top: 28px;
+      }
+      .entity-name {
+        font-size: 24px;
+        font-family: $agenda-mediumUltraCondensed;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-transform: uppercase;
+        width: 70px;
+
+        &.kitchen-name {
+          margin-bottom: 32px;
+          &:nth-child(1) {
+            margin-bottom: 30px;
+          }
+        }
+        &.tablet-name {
+          margin-bottom: 45px;
+        }
+        &.profile-name {
+          margin-bottom: 33px;
+        }
+        &.masterdb-name {
+          margin-bottom: 22px;
+          &:nth-child(1) {
+            margin-bottom: 10px;
+          }
+        }
+        &.unit-name {
+          margin-bottom: 25px;
+          &:nth-child(2) {
+            margin-bottom: 20px;
+          }
+        }
+        &.tag-name {
+          margin-bottom: 70px;
+          &:nth-child(2) {
+            width: 80px;
+            text-align: left;
+            margin-bottom: 85px;
+          }
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &.tablet-images {
+      margin-top: 280px;
+    }
+    &.profile-images {
+      margin-top: 150px;
+    }
+    &.kitchen-images {
+      margin-top: 130px;
+    }
+    &.unit-images {
+      margin-top: 90px;
+    }
+    &.master-db-images {
+      .image {
+        width: 430px;
+      }
+    }
+    &.tags-images {
+      .image {
+        width: 150px;
+      }
+    }
+  }
+  .back-link {
+    color: $black;
+    cursor: pointer;
+    font-family: $agenda-mediumItalic;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .input-title {
+    font-family: $agenda-italic;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .input-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    width: 78%;
+    .singular,
+    .plural {
+      font-family: $agenda-italic;
+      font-size: 11px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .form-control {
+      height: 33px;
+      margin: auto;
+      width: 93%;
+    }
+    .error-message {
+      padding-left: 8px;
+      padding-top: 2px;
+    }
+  }
+}

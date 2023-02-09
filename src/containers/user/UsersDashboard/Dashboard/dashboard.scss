@@ -1,0 +1,13 @@
+.entity-admin-dashboard {
+  text-align: center;
+  .dashboard-options {
+    margin: auto;
+    width: 80%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    .padding-50 {
+      padding: 0 50px;
+    }
+  }
+}

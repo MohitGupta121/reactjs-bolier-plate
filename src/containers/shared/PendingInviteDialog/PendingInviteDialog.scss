@@ -1,0 +1,10 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.pending-invite {
+  .user-name {
+    font-size: 25px;
+    font-family: $agenda-mediumUltraCondensed;
+    text-transform: uppercase;
+  }
+}

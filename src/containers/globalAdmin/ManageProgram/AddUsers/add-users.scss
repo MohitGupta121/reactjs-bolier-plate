@@ -1,0 +1,68 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.add-users {
+  height: 435px;
+  margin-right: auto;
+  min-height: 440px;
+  padding-top: 32px;
+  width: 95%;
+
+  .users {
+    font-size: 41px;
+    line-height: 0.9 !important;
+  }
+
+  .estimated-date {
+    color: $grey-text;
+    font-family: $agenda-bold;
+    font-size: 13px;
+    text-align: center;
+  }
+  .admin-users-title {
+    color: $subtitle-text;
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .footer-btn {
+    margin-top: 20px;
+    text-align: center;
+
+    .entity-btn {
+      background-color: $black;
+      border: none;
+      border-left: 4px solid $black;
+      font-family: $agenda-mediumUltraCondensed;
+      font-size: 30px;
+      height: 38px;
+      line-height: 1;
+      margin: 0;
+      margin-right: 20px;
+      min-width: 0;
+      position: relative;
+      width: 45%;
+    }
+    .icon-right-arrow {
+      font-size: 18px;
+      font-weight: 900;
+      position: absolute;
+      top: 10px;
+      right: 16px;
+    }
+  }
+  .waste-not-link {
+    bottom: 5px;
+    position: absolute;
+    right: 5px;
+  }
+
+  .user-data {
+    max-width: 540px;
+    &.margin-auto {
+      margin: auto;
+    }
+  }
+}

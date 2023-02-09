@@ -1,0 +1,168 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+
+.manage-program {
+  margin-top: -24px;
+  padding: 0 20px 0 20px;
+  @media screen and (max-width: 576px) {
+    padding: 20px;
+  }
+  .page-title {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .search-org {
+    margin: -13px auto 21px auto;
+    width: 30%;
+
+    .input-icons {
+      font-size: 14px;
+      left: 2px;
+      top: 32px;
+    }
+
+    Input {
+      border: 0;
+      border-bottom: 1px solid $placeholder-color;
+      color: #999999;
+      font-family: $agenda-mediumExtraCondensed;
+      font-size: 22px;
+      height: 38px;
+      padding: 5px 0 3px 8px;
+      &::placeholder {
+        color: $placeholder-color;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .tabled-section {
+    margin: auto;
+    width: 98%;
+  }
+
+  .list {
+    border-top: 1px solid $black;
+    border-left: 4px solid $black;
+    padding: 0;
+    .exit-link {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+    }
+  }
+  .organization-lists {
+    border-top: 1px solid $black;
+    max-height: 56vh;
+    list-style: none;
+    margin-bottom: 0;
+    overflow-y: scroll;
+    padding: 0;
+    &.h-auto {
+      height: auto;
+    }
+    @media screen and (max-width: 576px) {
+      padding: 0;
+    }
+    .org-list {
+      border-bottom: 1px solid $black;
+      &.selected {
+        background: $light-grey;
+        .org-intitals {
+          background-color: $black;
+        }
+        .org-name {
+          color: $black;
+        }
+      }
+      &.add-new {
+        border: none;
+        .org-name {
+          color: $black;
+        }
+      }
+      &.not-selected {
+        background: $white;
+      }
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 82px;
+      padding-left: 15px;
+      position: relative;
+
+      .org-name {
+        color: $grey-text;
+        font-family: $agenda-mediumUltraCondensed;
+        font-size: 41px;
+        padding-left: 10px;
+        text-transform: uppercase;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 90%;
+        white-space: nowrap;
+        .icon-plus {
+          position: relative;
+          top: 10px;
+        }
+      }
+
+      .org-intitals {
+        background: $grey-text;
+        border-radius: 50%;
+        color: $white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $agenda-bold;
+        font-size: 30px;
+        font-weight: 800;
+        height: 57px;
+        width: 57px;
+      }
+
+      .arrow-right {
+        font-size: 18px;
+        font-weight: 900;
+        margin-right: 8px;
+        text-align: right;
+      }
+      .plus-icon {
+        background: $black;
+        border-radius: 50%;
+        color: $white;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 5px;
+        padding: 2px 10px;
+      }
+      .add-org {
+        cursor: pointer;
+        padding-left: 20px;
+        .add-org-txt {
+          font-family: $agenda-mediumUltraCondensed;
+          font-size: 24px;
+          padding-left: 10px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  .manage-organization-btn {
+    margin: 5px 0px;
+    position: relative;
+    top: 25px;
+  }
+  .exit-link {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    &.flex-end {
+      justify-content: flex-end;
+    }
+  }
+}

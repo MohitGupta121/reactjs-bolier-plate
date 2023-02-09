@@ -1,0 +1,29 @@
+@import '../../../scss/colors';
+
+.users-dashboard {
+  text-align: center;
+  &.border-left {
+    border-left: 1px solid $border-color;
+  }
+  .dashboard-details {
+    min-height: 60px;
+  }
+  .margin-auto {
+    margin: auto;
+  }
+  .dashboard-options {
+    margin: auto;
+    width: 80%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    .padding-50 {
+      padding: 0 50px;
+    }
+    .dashed-button {
+      height: 115px;
+      margin-bottom: 30px;
+      width: 90%;
+    }
+  }
+}

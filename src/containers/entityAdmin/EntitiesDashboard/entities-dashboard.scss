@@ -1,0 +1,25 @@
+@import '../../../scss/colors';
+
+.entity-admin-dashboard {
+  text-align: center;
+  .dashboard-details {
+    min-height: 60px;
+  }
+  .margin-auto {
+    margin: auto;
+  }
+  .dashboard-options {
+    margin: auto;
+    width: 80%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    .padding-20 {
+      padding: 0 20px;
+    }
+  }
+  .dashed-button {
+    height: 115px;
+    margin-bottom: 30px;
+  }
+}

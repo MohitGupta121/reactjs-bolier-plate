@@ -1,0 +1,156 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.assign-tags {
+  margin-top: -60px;
+
+  .page-title {
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .entity-name {
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .description {
+    font-family: $agenda-italic;
+    font-size: 18px;
+    line-height: 1.35;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 65%;
+  }
+
+  .category-row {
+    margin: 0 30px;
+    min-height: 400px;
+  }
+
+  .card-section {
+    display: flex;
+    margin: 16px 0 16px 24px;
+
+    @media screen and (max-width: 576px) {
+      justify-content: center;
+    }
+  }
+
+  .category-card {
+    border: 1px solid $black;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+
+    .icon-navigate {
+      cursor: pointer;
+      font-size: 13px;
+      margin-left: 10px;
+    }
+
+    .add-a-tag {
+      color: $grey-text;
+      cursor: pointer;
+      font-family: $agenda-mediumExtraCondensed;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      padding: 0;
+
+      .icon-add-category {
+        font-size: 13px;
+        margin-right: 2px;
+      }
+    }
+
+    .icon-tick {
+      font-size: 15px;
+      margin-top: 3px;
+      float: right;
+    }
+
+    .card-body {
+      border-top: 1px solid $black;
+      font-family: $agenda-regularExtraCondensed;
+      padding: 5px 0 0 0;
+      max-height: 200px;
+      overflow-y: scroll;
+    }
+
+    .card-header {
+      border: none;
+      background-color: $white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 0;
+
+      .card-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Agenda-Bold';
+        font-size: 18px;
+        line-height: 1;
+        height: 30px;
+        margin: 0;
+        padding-left: 4px;
+
+        .icon-navigate {
+          margin-right: 7px;
+        }
+      }
+
+      .initial-header {
+        color: $add-category;
+        font-family: $agenda-regularExtraCondensed;
+        font-size: 22px;
+        line-height: 1;
+        margin-top: 5px;
+        padding-left: 7px;
+        cursor: pointer;
+        width: 85%;
+
+        .icon-add-category {
+          font-size: 18px;
+          margin-right: 4px;
+        }
+      }
+
+      .dropdown {
+        width: 85%;
+
+        .dropdown-toggle {
+          border: none;
+        }
+      }
+
+      .icon-drag {
+        font-size: 33px;
+        color: $drag-icon;
+      }
+    }
+
+    .tags-created {
+      background-color: $circled-icon;
+      border-radius: 6px;
+      color: $black;
+      cursor: pointer;
+      font-family: $agenda-mediumExtraCondensed;
+      font-size: 22px;
+      line-height: 1;
+      padding: 7px 10px;
+      margin: 7px 10px;
+      text-transform: capitalize;
+    }
+  }
+
+  .action-btns {
+    text-align: center;
+  }
+}

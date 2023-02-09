@@ -1,0 +1,92 @@
+@import '../../../../scss/colors';
+@import '../../../../scss/variable';
+
+.add-unit {
+  margin-top: -60px;
+  text-align: center;
+
+  .entity-name,
+  .add-unit-header {
+    font-family: $agenda-mediumUltraCondensed;
+  }
+
+  .entity-name {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  .unit-search {
+    position: relative;
+    height: 40px;
+    margin: 56px 27% 0 27%;
+
+    .search-bar-dropdown {
+      display: inline-block;
+      font-size: 21px;
+      cursor: default;
+
+      .form-group {
+        width: 350px;
+
+        .form-control::placeholder {
+          font-size: 21px;
+        }
+
+        .list-group {
+          .list-group-item {
+            border: 0px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .entity-name {
+    font-size: 25px;
+  }
+
+  .add-unit-header {
+    font-size: 34px;
+    margin-top: 24px;
+  }
+
+  .add-unit-page-title {
+    font-family: $agenda-italic;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .btns {
+    margin-top: 320px;
+  }
+
+  .error-message {
+    text-align: left;
+  }
+
+  .add-btn {
+    position: absolute;
+    right: 175px;
+    z-index: 2;
+    top: -3px;
+    min-width: 50px;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 3px;
+  }
+
+  .icon-remove-user {
+    bottom: 17px;
+    position: absolute;
+    right: 118px;
+  }
+
+  .exit-setup {
+    margin-right: 5px;
+  }
+
+  .next {
+    margin-left: 5px;
+  }
+}

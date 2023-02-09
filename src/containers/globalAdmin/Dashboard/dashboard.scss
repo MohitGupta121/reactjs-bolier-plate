@@ -1,0 +1,9 @@
+.global-admin-dashboard {
+  .dashboard-options {
+    margin: auto;
+    width: 80%;
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+$subtitleFontSize: 18px;
+@mixin subTitles($color) {
+  color: $color;
+  font: italic $subtitleFontSize $agenda-regular;
+}
+
+.dashed-button {
+  border: 3px dashed $black;
+  border-radius: 40px;
+  height: 166px;
+  width: 100%;
+  margin-bottom: 80px;
+  &.red-btn {
+    border: 3px dashed $red-color;
+    .title-text {
+      color: $red-color;
+    }
+    &:hover {
+      background: $red-color;
+    }
+  }
+
+  .title-text {
+    color: $light-black-color;
+    font-family: $agenda-mediumUltraCondensed;
+    font-size: 62px;
+    line-height: 1;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    width: 90%;
+    white-space: nowrap;
+  }
+
+  .subtitle-text {
+    @include subTitles($black);
+  }
+
+  .alert-msg {
+    @include subTitles($bright-red);
+  }
+
+  .hover-text {
+    font-family: $agenda-regular;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  &:hover {
+    .title-text {
+      color: $white;
+    }
+    .subtitle-text {
+      color: $white;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dashed-button {
+    margin-bottom: 40px;
+    .title-text {
+      font-size: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dashed-button {
+    width: 100%;
+    height: 120px;
+    .title-text {
+      font-size: 35px;
+    }
+    .subtitle-text,
+    .alert-msg,
+    .hover-text {
+      font-size: 12px;
+    }
+  }
+}

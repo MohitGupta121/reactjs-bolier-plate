@@ -1,0 +1,24 @@
+@import '../../../../scss/colors';
+.start-waste-mgmt {
+  margin: -27px 19% 0 19%;
+  text-align: center;
+  .page-title {
+    margin-bottom: 0;
+    margin-top: 3px;
+  }
+  .logo-img {
+    width: 315px;
+  }
+  .start-waste-mgmt-title {
+    font-style: italic;
+    font-size: 18px;
+    color: $black;
+    line-height: 1.35;
+    margin: 10px 0 25px 0;
+  }
+  .getting-started {
+    font-size: 15px;
+    height: 45px;
+    min-width: 180px;
+  }
+}

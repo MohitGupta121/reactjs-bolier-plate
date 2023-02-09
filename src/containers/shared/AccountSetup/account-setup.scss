@@ -1,0 +1,104 @@
+@import '../../../scss/colors';
+@import '../../../scss/variable';
+@import url('../../../assets/fonts/fonts.scss');
+
+.setup-account {
+  color: $black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 24px auto 0 auto;
+  width: 54%;
+
+  .page-title {
+    margin-bottom: 12px;
+  }
+
+  .setup-account-title {
+    font-family: $agenda-light;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+  }
+
+  .bold {
+    font-family: $agenda-bold;
+  }
+
+  .setup-account-input {
+    font-size: 15px;
+    margin: 30px 0 40px 0;
+    text-align: left;
+    text-transform: uppercase;
+    .setup-input {
+      margin-bottom: 20px;
+    }
+
+    .margin-auto {
+      margin: 35px auto 0 auto;
+    }
+    .form-label {
+      margin-bottom: 3px;
+    }
+    .form-control {
+      border-radius: 0;
+      height: 45px;
+      margin-bottom: 0;
+      padding: 6px 42px 6px 12px;
+      position: relative;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .error-message {
+      line-height: 1.15;
+      margin-top: 2px;
+      position: absolute;
+      max-width: 220px;
+    }
+    @media screen and (max-width: 576px) {
+      .form-group {
+        margin: auto;
+        width: 70%;
+      }
+      .form-control {
+        margin-bottom: 45px;
+        width: 100%;
+      }
+      .error-message {
+        margin-top: -43px;
+      }
+    }
+  }
+
+  .create-account-btn {
+    min-width: 180px;
+    height: 42px;
+  }
+}
+
+.login-link-text {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 10px;
+  text-align: center;
+
+  .login-link {
+    cursor: pointer;
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.error {
+  color: $red-color;
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  .setup-account {
+    width: 100%;
+  }
+}

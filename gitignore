@@ -1,0 +1,22 @@
+.DS_*
+*.log
+logs
+*/.backup.*
+*/.back.*
+
+node_modules
+bower_components
+*.env
+.sublime
+
+psd
+thumb
+sketch
+
+# misc
+.DS_Store
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production.local

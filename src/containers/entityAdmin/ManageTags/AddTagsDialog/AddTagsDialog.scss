@@ -1,0 +1,12 @@
+@import '../../../../scss/variable';
+
+.add-tags-dialog {
+  text-align: center;
+  .description {
+    font-size: 18px;
+    font-family: $agenda-italic;
+  }
+  .add-tags-btn {
+    margin-top: 40px;
+  }
+}

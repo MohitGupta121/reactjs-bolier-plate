@@ -1,0 +1,82 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+.dropdown {
+  .dropdown-toggle {
+    background-color: $white;
+    border-radius: 0;
+    border: 1px solid $light-black-color;
+    color: $placeholder-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $agenda-regularExtraCondensed;
+    font-size: 19px;
+    line-height: 1;
+    min-width: 95%;
+    max-width: 95%;
+    overflow: hidden;
+    padding: 4px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    &::after {
+      color: $black;
+    }
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 3px 6px $dropdown-list-box;
+    min-width: 0;
+    padding: 10px;
+    width: 95%;
+    z-index: 1000;
+    .search-input {
+      position: relative;
+      margin-bottom: 10px;
+      .input-icons {
+        font-size: 12px;
+        position: absolute;
+        top: 6px;
+      }
+      .form-control {
+        background-color: $dropdown-bg;
+        border: none;
+        border-radius: 6px;
+        font-family: $agenda-regularExtraCondensed;
+        font-size: 18px;
+        height: auto;
+        line-height: 1;
+        margin-bottom: 0;
+        padding: 2px 5px;
+        &::placeholder {
+          color: $grey-text;
+          font-size: 20px;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+    .dropdown-list {
+      list-style: none;
+      max-height: 120px;
+      overflow-y: scroll;
+      padding: 0;
+      z-index: 1000;
+    }
+  }
+  .apply-filters {
+    font-size: 12px;
+    text-align: right;
+    .filter {
+      color: $charcoal;
+      cursor: pointer;
+      padding-right: 5px;
+      text-decoration: none;
+    }
+  }
+}

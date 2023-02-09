@@ -1,0 +1,60 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+.landingpagecontent {
+  .bg-pri {
+    background-color: #fbfbff;
+  }
+  .dashboardnavbar {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    justify-content: space-between;
+    background: none;
+    color: black;
+    .navbar-toggle {
+      background-color: #3a5998;
+      border: 1px solid #3a5998;
+    }
+    .middlenavs {
+      .nav-link {
+        color: #000 !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0.5rem 2rem 0.5rem 0px;
+      }
+    }
+    .lastnav {
+      .nav-link {
+        color: #3a5998 !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+    .nav-link {
+      color: #000 !important;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .link {
+      color: #3a5998 !important;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .navbar-brand {
+      color: #3a5998 !important;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      padding-left: 0 !important;
+      padding-top: 0.4rem !important;
+    }
+  }
+}

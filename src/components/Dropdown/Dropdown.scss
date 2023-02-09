@@ -1,0 +1,57 @@
+@import '../../scss/colors';
+@import '../../scss/variable';
+
+.dropdown {
+  cursor: pointer;
+  -webkit-transition: max-height 1s ease;
+  .dropdown-menu {
+    border: 1px solid $black;
+    border-radius: 0;
+    padding: 10px;
+    min-width: 100%;
+    margin: -2px 0 0 -2px;
+
+    .dropdown-list {
+      list-style: none;
+      padding: 0;
+    }
+    .dropdown-item {
+      font-size: 13px;
+      font-family: $agenda-italic;
+      text-transform: capitalize;
+      padding-left: 5px;
+    }
+  }
+
+  .dropdown-toggle {
+    border-radius: 0;
+    font-size: 13px;
+    font-family: $agenda-italic;
+    width: 100%;
+    text-align: left;
+    box-shadow: none;
+    outline: 0;
+    padding: 0 10px;
+    border: 1px solid $black;
+    height: 35px;
+    .navigation-icon {
+      position: absolute;
+      right: 5px;
+      font-size: 12px;
+      font-weight: 800;
+      top: 9px;
+    }
+    &::after {
+      display: none;
+    }
+    &.is-error {
+      border: 2px solid $bright-red;
+    }
+  }
+}
+.dropdown-label {
+  font-family: $agenda-regular;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
